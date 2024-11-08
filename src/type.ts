@@ -30,8 +30,6 @@ export interface LyricWord {
     endTime: number;
     /** The actual word text. */
     word: string;
-    /** Optional count of empty beats before the word. */
-    emptyBeat?: number;
 }
 
 /**
