@@ -54,15 +54,14 @@ export default function parseLRC(lrcText: string, duration?: number): LyricData 
     // Remove empty scripts
     result.scripts = result.scripts!.filter((script) => script.text.trim() !== "");
 
-    // Set the last line end time to the start time +3s (by default)
-    if (scripts.length > 0) {
-        scripts[scripts.length - 1].end = scripts[scripts.length - 1].start + 3;
-    }
-
-    // Optional: If the duration is provided and the last line's end time is not set (-1), 
+    // If the duration is provided and the last line's end time is not set (-1), 
     // set the end time of the last script
     if (duration && scripts.length > 0 && scripts[scripts.length - 1].end === -1) {
         scripts[scripts.length - 1].end = duration;
+    }
+    // Otherwise, set the last line end time to the start time +3s (by default)
+    else if (scripts.length > 0) {
+        scripts[scripts.length - 1].end = scripts[scripts.length - 1].start + 3;
     }
 
     return result;
