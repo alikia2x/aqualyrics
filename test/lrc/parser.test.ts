@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import parseLRC from "src/index";
+import parseLRC from "src/lrc";
 
 const lrcText = `
 [ar:Artist]

@@ -1,5 +1,5 @@
 {
-    "name": "@alikia/lrc",
+    "name": "@alikia/aqualyrics",
     "version": "1.0.0",
     "exports": "./src/index.ts"
 }
