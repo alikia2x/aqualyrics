@@ -1,11 +1,6 @@
 import type { LyricData } from "../type";
 import { createRegExp, digit, exactly, letter, oneOrMore } from "magic-regexp";
 
-/**
- * Parses a time tag in the format "MM:SS.mmm" and converts it to seconds.
- * @param {string} timeTag - The time tag string to parse.
- * @returns {number} The time in seconds.
- */
 function parseTimeTag(timeTag: string): number {
     const [min, sec] = timeTag.split(":").map(parseFloat);
     return min * 60 + sec;
