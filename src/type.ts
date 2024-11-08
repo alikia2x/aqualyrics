@@ -24,9 +24,13 @@ export interface ScriptItem {
  * @interface LyricWord
  */
 export interface LyricWord {
-    /** The start time of the word in seconds. */
+    /** The start time (relative to the whole song) of the word in seconds.
+     * Example: 12.7 means the singer first sang the word at 12.7 seconds into the song.
+     */
     startTime: number;
-    /** The end time of the word in seconds. */
+    /** The end time (relative to the whole song) of the word in seconds.
+     * Example: 13.2 means the singer finishes singing the word at 13.2 seconds into the song.
+     */
     endTime: number;
     /** The actual word text. */
     word: string;
