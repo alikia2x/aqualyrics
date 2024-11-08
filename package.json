@@ -1,0 +1,15 @@
+{
+  "name": "lrc",
+  "version": "1.0.0",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "magic-regexp": "^0.8.0"
+  }
+}
