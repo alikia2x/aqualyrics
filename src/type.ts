@@ -17,6 +17,8 @@ export interface ScriptItem {
     translation?: string;
     /** Optional singer name associated with the script item. */
     singer?: string;
+    /** Optional index for the script item, used for sorting. */
+    idx?: number;
 }
 
 /**
@@ -49,7 +51,8 @@ export interface LyricMetadata {
     al?: string;
     /** Author of the lyrics. */
     au?: string;
-    /** Length of the song (mm:ss). */
+    /** Length of the song in the format `hh:mm:ss.sss`, 
+     * in which hours and milliseconds may not be provided.*/
     length?: string;
     /** Specifies a global offset value for the lyric times, in milliseconds. 
      * The value is prefixed with either + or -, with + causing lyrics to appear sooner */
@@ -58,6 +61,19 @@ export interface LyricMetadata {
     tool?: string;
     /** The version of the program. */
     ve?: string;
+    /** The ID of the song in Apple Music */
+    appleMusicID?: string;
+    /** The ID of the song in QQ Music */
+    qqMusicID?: string;
+    /** The ID of the song in Netease Music */
+    neteaseMusicID?: string;
+    /** The ID of the song in Spotify */
+    spotifyID?: string;
+    /** The BVID of the video of the song in Bilibili */
+    bilibiliBVID?: string;
+    /** The person who aligns the original lyrics text to the timeline 
+     * (i.e., the producer of the final lyrics file - e.g., LRC, TTML) */
+    aligner?: string;
 }
 
 /**

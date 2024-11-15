@@ -1,0 +1,90 @@
+<tt xmlns="http://www.w3.org/ns/ttml"
+    xmlns:itunes="http://music.apple.com/lyric-ttml-internal"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Line" xml:lang="zh-Hans">
+    <head>
+        <metadata>
+            <ttm:agent type="person" xml:id="v1"/>
+            <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal" leadingSilence="0">
+                <translations/>
+                <songwriters>
+                    <songwriter>Vagary</songwriter>
+                </songwriters>
+            </iTunesMetadata>
+        </metadata>
+    </head>
+    <body dur="4:53.657">
+        <div begin="55.689" end="1:18.478">
+            <p begin="55.689" end="58.056" itunes:key="L1" ttm:agent="v1">今夜若欠清光满堂</p>
+            <p begin="58.066" end="1:00.642" itunes:key="L2" ttm:agent="v1">蘸笔天河绘万古生香</p>
+            <p begin="1:01.449" end="1:03.916" itunes:key="L3" ttm:agent="v1">史笔滔滔烟霞绣像</p>
+            <p begin="1:03.926" end="1:06.197" itunes:key="L4" ttm:agent="v1">就中拈来玲珑十二章</p>
+            <p begin="1:07.403" end="1:09.779" itunes:key="L5" ttm:agent="v1">吹开汗青淋漓苍茫</p>
+            <p begin="1:09.804" end="1:12.278" itunes:key="L6" ttm:agent="v1">明辨残稿谁秋水一双</p>
+            <p begin="1:13.221" end="1:15.616" itunes:key="L7" ttm:agent="v1">书阁深处篆隶流芳</p>
+            <p begin="1:15.626" end="1:18.478" itunes:key="L8" ttm:agent="v1">断简遗篇挥毫续兴亡</p>
+        </div>
+        <div begin="1:18.603" end="1:29.567">
+            <p begin="1:18.603" end="1:21.495" itunes:key="L9" ttm:agent="v1">谁 白草胡笳烽燧长</p>
+            <p begin="1:21.505" end="1:24.384" itunes:key="L10" ttm:agent="v1">将半生哀毁以诗情抵挡</p>
+            <p begin="1:24.419" end="1:27.618" itunes:key="L11" ttm:agent="v1">断弦含泪更张</p>
+            <p begin="1:27.740" end="1:29.567" itunes:key="L12" ttm:agent="v1">最高贵流浪</p>
+        </div>
+        <div begin="1:29.577" end="1:57.992">
+            <p begin="1:29.577" end="1:33.434" itunes:key="L13" ttm:agent="v1">隔几世 玉楼试才歌咏琳琅</p>
+            <p begin="1:33.539" end="1:36.105" itunes:key="L14" ttm:agent="v1">冠绝了乌衣巷</p>
+            <p begin="1:36.136" end="1:39.232" itunes:key="L15" ttm:agent="v1">谁一语风絮荡荡</p>
+            <p begin="1:39.393" end="1:41.258" itunes:key="L16" ttm:agent="v1">摹尽落雪茫茫</p>
+            <p begin="1:41.268" end="1:45.147" itunes:key="L17" ttm:agent="v1">谁万里关山暂忘女儿模样</p>
+            <p begin="1:45.260" end="1:47.690" itunes:key="L18" ttm:agent="v1">家与国都担当</p>
+            <p begin="1:47.797" end="1:52.320" itunes:key="L19" ttm:agent="v1">再亲手摘下 黄河落日黑山飞霜</p>
+            <p begin="1:52.430" end="1:54.088" itunes:key="L20" ttm:agent="v1">铁甲揩亮</p>
+            <p begin="1:54.098" end="1:57.992" itunes:key="L21" ttm:agent="v1">舍旧时云裳</p>
+        </div>
+        <div begin="2:08.900" end="2:31.604">
+            <p begin="2:08.900" end="2:11.235" itunes:key="L22" ttm:agent="v1">乱世丹心碧血满腔</p>
+            <p begin="2:11.316" end="2:13.821" itunes:key="L23" ttm:agent="v1">灵思千转一意辅隋杨</p>
+            <p begin="2:14.769" end="2:17.075" itunes:key="L24" ttm:agent="v1">河山纷裂终须入掌</p>
+            <p begin="2:17.147" end="2:19.469" itunes:key="L25" ttm:agent="v1">百万明珠抬手赐名将</p>
+            <p begin="2:20.558" end="2:22.961" itunes:key="L26" ttm:agent="v1">逸兴遄飞催花一场</p>
+            <p begin="2:22.971" end="2:25.393" itunes:key="L27" ttm:agent="v1">犹记看朱成碧添惆怅</p>
+            <p begin="2:26.420" end="2:28.863" itunes:key="L28" ttm:agent="v1">凰音一绽惊肃朝纲</p>
+            <p begin="2:28.873" end="2:31.604" itunes:key="L29" ttm:agent="v1">无字空碑自不负倔强</p>
+        </div>
+        <div begin="2:31.709" end="2:42.730">
+            <p begin="2:31.709" end="2:34.686" itunes:key="L30" ttm:agent="v1">谁 一身风雅奉君王</p>
+            <p begin="2:34.696" end="2:37.589" itunes:key="L31" ttm:agent="v1">持素心清明秤天下才郎</p>
+            <p begin="2:37.673" end="2:40.729" itunes:key="L32" ttm:agent="v1">遇合锦绣黄粱</p>
+            <p begin="2:40.898" end="2:42.730" itunes:key="L33" ttm:agent="v1">纷纭中静赏</p>
+        </div>
+        <div begin="2:42.740" end="3:10.853">
+            <p begin="2:42.740" end="2:46.540" itunes:key="L34" ttm:agent="v1">后来有 一生明旷漱玉噙香</p>
+            <p begin="2:46.729" end="2:49.323" itunes:key="L35" ttm:agent="v1">乌江旁歌霸王</p>
+            <p begin="2:49.333" end="2:52.522" itunes:key="L36" ttm:agent="v1">结一代清雅无双</p>
+            <p begin="2:52.627" end="2:54.444" itunes:key="L37" ttm:agent="v1">举世衣冠齐望</p>
+            <p begin="2:54.454" end="2:58.243" itunes:key="L38" ttm:agent="v1">而燕燕于飞 怎甘随波低昂</p>
+            <p begin="2:58.417" end="3:00.931" itunes:key="L39" ttm:agent="v1">睥睨燕云月上</p>
+            <p begin="3:01.021" end="3:05.651" itunes:key="L40" ttm:agent="v1">谁马踏桃花 画角长吟金鼓铿锵</p>
+            <p begin="3:05.661" end="3:07.278" itunes:key="L41" ttm:agent="v1">寸土不让</p>
+            <p begin="3:07.288" end="3:10.853" itunes:key="L42" ttm:agent="v1">万军一剑挡</p>
+        </div>
+        <div begin="3:33.651" end="3:50.738">
+            <p begin="3:33.651" end="3:37.964" itunes:key="L43" ttm:agent="v1">煌煌千载辉光</p>
+            <p begin="3:37.980" end="3:42.303" itunes:key="L44" ttm:agent="v1">古今盛筵长</p>
+            <p begin="3:42.425" end="3:46.634" itunes:key="L45" ttm:agent="v1">何幸有你登场</p>
+            <p begin="3:46.762" end="3:50.738" itunes:key="L46" ttm:agent="v1">共举霞觞</p>
+        </div>
+        <div begin="3:50.748" end="4:24.829">
+            <p begin="3:50.748" end="3:54.618" itunes:key="L47" ttm:agent="v1">谁血作胭脂 枪起夭矫龙翔</p>
+            <p begin="3:54.798" end="3:57.285" itunes:key="L48" ttm:agent="v1">翠袖虎符封疆</p>
+            <p begin="3:57.384" end="4:00.588" itunes:key="L49" ttm:agent="v1">谁又定两朝风波</p>
+            <p begin="4:00.713" end="4:02.478" itunes:key="L50" ttm:agent="v1">掌三世的荣光</p>
+            <p begin="4:02.488" end="4:06.332" itunes:key="L51" ttm:agent="v1">今夜我为你轻叙巾帼芬芳</p>
+            <p begin="4:06.457" end="4:08.991" itunes:key="L52" ttm:agent="v1">浩歌一曲传香</p>
+            <p begin="4:09.072" end="4:12.355" itunes:key="L53" ttm:agent="v1">唱不完跌宕 明媚刚强</p>
+            <p begin="4:12.365" end="4:15.254" itunes:key="L54" ttm:agent="v1">百代秾华 千秋榜样</p>
+            <p begin="4:15.264" end="4:18.167" itunes:key="L55" ttm:agent="v1">行经故梦 今又来访</p>
+            <p begin="4:18.223" end="4:21.160" itunes:key="L56" ttm:agent="v1">天高海阔 盛世飞扬</p>
+            <p begin="4:21.170" end="4:24.829" itunes:key="L57" ttm:agent="v1">再谱十万章</p>
+        </div>
+    </body>
+</tt>
