@@ -1,4 +1,4 @@
-import type { LyricData, ScriptItem } from "src/type";
+import type { LyricData, LyricWord, ScriptItem } from "src/type";
 import xmldoc from "xmldoc";
 
 const AMLL_METADATA_KEY_MAP = {
@@ -65,10 +65,17 @@ function processLyricLine(element: xmldoc.XmlElement, data: LyricData): LyricDat
     if (!wordExists) {
         singleLine.text = element.val;
     } else {
+        let words: LyricWord[] = [];
         for (const span of spanElements) {
             if (span.attr["ttm:role"]) continue;
             singleLine.text += span.val;
+            words.push({
+                startTime: parseTime(span.attr.begin),
+                endTime: parseTime(span.attr.end),
+                word: span.val,
+            })
         }
+        singleLine.words = words;
     }
     if (idx)
         singleLine.idx = parseInt(idx.substring(1)); // remove the leading "L"

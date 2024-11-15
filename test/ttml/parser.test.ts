@@ -18,4 +18,5 @@ test("Regular TTML", async () => {
 test("TTML with background vocal", async () => {
     const parsedLyricData2 = parseTTML(TTML_amll_2);
     expect(parsedLyricData2.scripts![59].text).toBe("岸上游人挽手相依熙熙攘攘");
+    expect(parsedLyricData2.scripts![0].words![0].word).toBe("临水");
 });
