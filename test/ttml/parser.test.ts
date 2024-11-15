@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { parseTTML } from "src/ttml/parser";
+import parseTTML from "src/ttml/parser";
 
 const file1 = Bun.file("test/ttml/assets/example-apple-1.ttml");
 const file2 = Bun.file("test/ttml/assets/example-amll-2.ttml");

@@ -97,7 +97,12 @@ function processLyricGroups(lyricGroups: xmldoc.XmlElement[], data: LyricData): 
     return { ...data, ...result };
 }
 
-export function parseTTML(xml: string): LyricData {
+/**
+ * Parse a TTML XML string into lyric data.
+ * @param xml The XML string to parse.
+ * @returns The parsed lyric data.
+ */
+export default function parseTTML(xml: string): LyricData {
     const parsedData = new xmldoc.XmlDocument(xml);
     let result: LyricData = {};
     const metadata = parsedData.descendantWithPath("head.metadata");
