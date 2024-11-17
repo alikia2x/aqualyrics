@@ -36,10 +36,12 @@ function extractMetadata(metadata: xmldoc.XmlElement, data: LyricData): LyricDat
  */
 function parseTime(time: string): number {
     const colonSplited = time.split(":");
-    const dotSplited = time.split(".");
-    const hours = colonSplited.length > 1 ? parseInt(colonSplited[0]) : 0;
-    const minutes = colonSplited.length > 1 ? parseInt(colonSplited[1]) : parseInt(colonSplited[0]);
-    const seconds = dotSplited.length > 1 ? parseInt(dotSplited[0]) : 0;
+    if (colonSplited.length < 2 || colonSplited.length > 3) return 0;
+    const hours = colonSplited.length > 2 ? parseInt(colonSplited[0]) : 0;
+    const minutes = colonSplited.length > 2 ? parseInt(colonSplited[1]) : parseInt(colonSplited[0]);
+    const secondsMilliseconds = colonSplited.length > 2 ? colonSplited[2] : colonSplited[1];
+    const dotSplited = secondsMilliseconds.split(".");
+    const seconds = parseInt(dotSplited[0]);
     const milliseconds = dotSplited.length > 1 ? parseInt(dotSplited[1]) : 0;
     return hours * 3600 + minutes * 60 + seconds + milliseconds / 1000;
 }
